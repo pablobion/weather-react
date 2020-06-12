@@ -1,0 +1,18 @@
+.alert-container {
+     display: flex;
+     align-items: center;
+     position: absolute;
+     color: white;
+     font-size: 0.8vw;
+     background: rgba(50, 111, 129, 0.651);
+     height: 2vw;
+     width: 30vw;
+     margin-top: 2vw;
+     margin-left: 7vw;
+     padding-left: 1vw;
+}
+
+.alert-container h1{
+border: 0;
+
+}
