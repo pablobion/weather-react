@@ -1,0 +1,60 @@
+.WeatherMenu-div {
+     display: flex;
+     background-color: rgba(0, 0, 0, 0.37);
+     height:30%;
+     color: white;
+     justify-content: center;
+}
+/* Div and firstd ay */
+.firstdivofdays {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     width: 60%;
+     margin-top: 0.5%;
+}
+.menu-firstday{
+     background-color: rgb(39, 39, 39);
+     text-align: center;
+     line-height: 4vw; 
+     font-size:2.0vw;
+     width: 6vw;
+     height: 4vw;
+     margin-top: 3%;
+     border-radius: 1vw;
+}
+.menu-graus {
+     margin: 0;
+     font-size:3vw;
+}
+/* Outros dias */
+.divofdays {
+     display: flex;
+     align-items: center;
+     width: 30%;
+     justify-content: flex-start;
+     flex-direction: column;
+}
+.menu-days{
+     background-color: rgb(39, 39, 39);
+     text-align: center;
+     line-height: 2.8vw; 
+     font-size:1.5vw;
+     width: 4vw;
+     height: 3vw;
+     margin-top: 12%;
+     border-radius: 1vw;
+}
+/* Div de min e max */
+.menu-max-min{
+     display: flex;
+     font-size: 1.2vw; 
+}
+.menu-max-min p {
+     font-weight: bold;
+}
+.menu-max-min p+p {
+     margin-left: 10%;
+     color: rgb(151, 151, 151);
+}
+

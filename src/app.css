@@ -1,0 +1,38 @@
+body {
+     background-image: url('./assets/background.png') ;
+     background-repeat: no-repeat;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+
+}
+
+
+ html, body, #root, .container {
+     height: 100%;
+     margin: 0;
+     font-family: Open Sans;
+    
+}
+
+.painel {
+     display: flex;
+     align-items: flex-start;
+     height: 70%;
+     color: white;
+}
+
+
+
+.left-side {
+     margin-top: 5%;
+     margin-left: 5%;
+     width: 60%
+}
+
+.right-side {
+     margin-top: 9%;
+     font-size: 20px;
+     width: 25vw;
+}
