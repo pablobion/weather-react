@@ -1,15 +1,15 @@
-#Wather React ⛅
+# Wather React ⛅
 
-###Clonando repositório e executando
+### Clonando repositório e executando
 Em seu terminal, na primeira vez que for utilizar 
 >git clone https://github.com/pablobion/weather-react.git
 
-#####Acessando a pastar
+##### Acessando a pastar
 >cd weather-react
 
-#####Instalando as dependências
+##### Instalando as dependências
 >npm i
 
-#####Executando o projeto
+##### Executando o projeto
 >npm start 
 
