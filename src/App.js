@@ -7,6 +7,7 @@ import Hour from './Components/Hour/Hour'
 import City from './Components/City/City'
 import WeatherMenu from './Components/WeatherMenu/WeatherMenu.jsx'
 import Search from './Components/Search/Search.jsx'
+import Alert from './Components/Alert/Alert'
 
 const { Api } = require("./apiCall")
 
@@ -35,7 +36,7 @@ function App() {
       setHour(hours)
     }
 
-    if(load == false){ //Roda ao entrar e somente uma vez, com a localização do usuario
+    if(load === false){ //Roda ao entrar e somente uma vez, com a localização do usuario
       setLoad(true)
       navigator.geolocation.getCurrentPosition(function(position) { 
           api.then(response =>  response.get(`https://weather-ydn-yql.media.yahoo.com/forecastrss?lat=${position.coords.latitude}&lon=${position.coords.longitude}&format=json&u=c`, null, null, (err, data) => {
@@ -55,7 +56,7 @@ function App() {
           api.then(response =>  response.get(`https://weather-ydn-yql.media.yahoo.com/forecastrss?location=${city}&format=json&u=c`, null, null, (err, data) => {
             
             const json_verify = JSON.parse(data).forecasts // Pega o array de forecasts onde tem as informações dos dias
-            if(json_verify.length == 0){ // se o array for 0 significa que não conseguiu encontrar nenhuma cidade
+            if(json_verify.length === 0){ // se o array for 0 significa que não conseguiu encontrar nenhuma cidade
               alert('error: check the city name')
               return false 
             }
@@ -73,6 +74,7 @@ function App() {
 
   return (
     <div className='container'> 
+    <Alert/>
       <div className='painel'>
           <div className="left-side">
             <Hour hour={hour}></Hour>
