@@ -1,4 +1,4 @@
-import React from 'react'
+  import React from 'react'
 import cloudy from '../../assets/weather-icons/cloudy.svg'
 import cloudyday from '../../assets/weather-icons/cloudyday.svg'
 import cloudynight from '../../assets/weather-icons/cloudynight.svg'
@@ -69,5 +69,5 @@ export default props => {
                condition = obj[index]
           }
      })
-     return <img src={condition}></img>   
+     return <img src={condition} ></img>  
 }

@@ -9,7 +9,6 @@ export default props => {
      }
      
      const forecasts = props.forecasts
-     console.log(forecasts)
      const days = forecasts.map((elem, index) => {
           if(index === 0) return   <div key={index} className='firstdivofdays'>
                                         <h1 className='menu-firstday'>{elem.day}</h1>
@@ -22,7 +21,7 @@ export default props => {
           if(index < 7){
                     return    <div key={index} className='divofdays'>
                                    <h1 className='menu-days'>{elem.day}</h1>
-                                   <div class='menu-max-min'>
+                                   <div className='menu-max-min'>
                                         <p className='menu-max'>{elem.high}º</p>
                                         <p className='menu-min'>{elem.low}º</p>
                                    </div>

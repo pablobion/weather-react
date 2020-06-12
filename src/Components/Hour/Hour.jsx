@@ -11,6 +11,11 @@ export default props => {
 
      hour = `${hour[0]}:${hour[1]}`
 
+     if(hour === 'L:undefined'){ // se tiver sem geolocation nao mostra nada
+       hour = ''
+       period = ''
+     }
+
      return(
       <div className='hour-container'>
           <div className='hour-hours'>
