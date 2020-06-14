@@ -8,9 +8,9 @@ Web Page com a previsão do tempo coletado através da API disponibilizada pelo 
 https://developer.yahoo.com/weather/
 
 ##### Features
-1. Coleta a geolocalização para mostrar a previsão do tempo do local onde o usuário está
-2. Mostra previsão ao longo da semana
-2. Possibilidade de pesquisar outras cidades
+- Coleta a geolocalização para mostrar a previsão do tempo do local onde o usuário está
+- Mostra previsão ao longo da semana
+- Possibilidade de pesquisar outras cidades
 
 
 ### Clonando repositório e executando
