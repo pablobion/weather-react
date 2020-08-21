@@ -17,7 +17,7 @@ https://developer.yahoo.com/weather/
 Em seu terminal, na primeira vez que for utilizar
 >git clone https://github.com/pablobion/weather-react.git
 
-##### Acessando a pastar
+##### Acessando a pasta
 >cd weather-forecasts
 
 ##### Instalando as dependências
